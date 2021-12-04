@@ -1,0 +1,12 @@
+local _ = {}
+_[1] = {["dirt_with_grass"] = 63, ["dirt"] = 3}
+_[2] = {["mcl_core"] = _[1]}
+_[3] = {}
+_[4] = {}
+_[5] = {["tallgrass"] = 6}
+_[6] = {["dirt_with_grass"] = 1, ["dirt"] = 3}
+_[7] = {["mcl_flowers"] = _[5], ["mcl_core"] = _[6]}
+_[8] = {["apple_gold_enchanted"] = 3}
+_[9] = {["mcl_core"] = _[8]}
+_[10] = {["joins"] = 5, ["deaths"] = 0, ["chats"] = 0, ["place"] = _[2], ["unlocked"] = _[3], ["craft"] = _[4], ["count"] = _[7], ["eat"] = _[9], ["name"] = "VoidCosmos"}
+return {["VoidCosmos"] = _[10], [_[10]] = {["joins"] = 0, ["deaths"] = 0, ["chats"] = 0, ["place"] = {}, ["unlocked"] = {}, ["craft"] = {}, ["count"] = {}, ["eat"] = {}, ["name"] = _[10]}}
